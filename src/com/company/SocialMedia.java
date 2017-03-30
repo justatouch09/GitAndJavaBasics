@@ -10,4 +10,10 @@ public class SocialMedia {
     int characters;
     boolean webpage;
 
+    public boolean isWebpage() {
+        return webpage;
+    }
+
+
+
 }

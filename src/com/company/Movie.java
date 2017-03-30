@@ -10,8 +10,8 @@ public class Movie {
     int minutes;
     String color;
 
-    public double numberOfLegs() {
-        return (5 + 3);
+    public double movieLength() {
+        return ( 320 - minutes);
 
     }
 }

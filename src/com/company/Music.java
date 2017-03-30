@@ -10,13 +10,7 @@ public class Music {
     int time;
     boolean rock;
 
-
-
-
-
-
-
-
-
-
+    public boolean isCountry() {
+        return country;
+    }
 }
