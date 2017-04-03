@@ -14,6 +14,19 @@ public class SocialMedia {
         return webpage;
     }
 
+    public void setFont(String font) {
+        this.font = font;
+    }
+
+    public void setStyle(String style) {
+        if (this.style.contains("Bold")) {
+            System.out.println("This is the right font");
+            this.style = style;
+        }
+
+        }
+    }
 
 
-}
+
+

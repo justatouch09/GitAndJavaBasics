@@ -9,8 +9,12 @@ public class Main {
         h.year = 1990;
         h.color = "green";
         h.stucko = true;
+        h.setColor("green");
+        h.setYear(1990);
 
-        System.out.println(h.ageOfProperty());
+
+        //System.out.format("Age of Property = ");
+       // System.out.println(h.ageOfProperty());
 
 
         Bug b = new Bug();
@@ -19,8 +23,11 @@ public class Main {
         b.deadly = true;
         b.age = 24;
         b.type = "spider";
+        b.setType("spider");
+        b.setLegs(8);
 
-        System.out.println(b.ageOfBug());
+       // System.out.format("Age of Bug = ");
+       // System.out.println(b.ageOfBug());
 
 
         SocialMedia s = new SocialMedia();
@@ -29,7 +36,10 @@ public class Main {
         s.pictures = 10;
         s.style = "bold";
         s.webpage = false;
+        s.setFont("red");
+        s.setStyle("bold");
 
+        System.out.format("Is Social Media a Webpage? ");
         System.out.println(s.isWebpage());
 
 
@@ -39,8 +49,11 @@ public class Main {
         m.scary = false;
         m.minutes = 160;
         m.color = "black and white";
+        m.setMinutes(160);
+        m.setYear(2005);
 
-        System.out.println(m.movieLength());
+       // System.out.format("Movie Length = ");
+       // System.out.println(m.movieLength());
 
         Music k = new Music();
         k.country = false;
@@ -48,12 +61,16 @@ public class Main {
         k.time = 4;
         k.year = 2009;
         k.rock = false;
+        k.setYear(2009);
+       // k.setTime(4);
 
+        System.out.format("Is Country Music Bad? ");
         System.out.println(k.isCountry());
-        System.out.format("Is Country Bad Music");
+
     }
 
 }
+
 
 
 

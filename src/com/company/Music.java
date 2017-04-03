@@ -13,4 +13,21 @@ public class Music {
     public boolean isCountry() {
         return country;
     }
+
+    public void setYear(int year) {
+        if (this.year > 2018) {
+            System.out.println("That is wrong");{
+            }
+        this.year = year; }
+
+        {
+
+
+
+
+    //public void setTime(int time) {
+        //this.time = time;
+    }
+
+}
 }

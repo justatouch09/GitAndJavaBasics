@@ -10,9 +10,21 @@ public class Movie {
     int minutes;
     String color;
 
-    public double movieLength() {
-        return ( 320 - minutes);
+    //public double movieLength() {
+     //   return ( 320 - minutes);
+
+    public void setMinutes(int minutes) {
+        if (this.minutes < 160); {
+            System.out.println("That is right");
+        }
+        this.minutes = minutes;
 
     }
-}
+    public void setYear(int year) {
+        this.year = year;
+
+    }
+
+    }
+
 

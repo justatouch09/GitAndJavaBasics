@@ -10,10 +10,18 @@ public class Bug {
     int age;
     boolean deadly;
 
-    public double ageOfBug() {
-        return (48 - 24);
+    //public double ageOfBug() {
+      //  return (48 - 24);
+    //}
 
+    public void setType(String type) {
+        if (this.type.contains("s"))
+            System.out.println("Special font");
+        this.type = type; }
+
+
+    public void setLegs(int legs) {
+        this.legs = legs;
 
     }
-
 }
